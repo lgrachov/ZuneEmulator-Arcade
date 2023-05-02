@@ -1,0 +1,29 @@
+{
+    "name": "ZuneEmulator",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "zune-assets": "github:kiki-lee/zune-assets#v0.0.12"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "theme": "zune"
+}
